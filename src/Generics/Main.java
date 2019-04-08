@@ -11,8 +11,6 @@ public class Main {
 
         Team<FootballPlayer> adelaideCrows = new Team<>("Adelaide Crows");
         adelaideCrows.addPlayer(joe);
-//        adelaideCrows.addPlayer(pat);
-//        adelaideCrows.addPlayer(beckham);
 
         System.out.println(adelaideCrows.numPlayers());
 
@@ -33,7 +31,6 @@ public class Main {
         hawthorn.matchResult(adelaideCrows, 3, 8);
 
         adelaideCrows.matchResult(fremantle, 2, 1);
-        //adelaideCrows.matchResult(baseballPlayerTeam, 1, 1);
 
         System.out.println("Rankings");
         System.out.println(adelaideCrows.getName() + ": " + adelaideCrows.ranking());
