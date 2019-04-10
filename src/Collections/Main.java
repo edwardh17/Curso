@@ -116,15 +116,19 @@ public class Main {
 //        v.add("test");
 //        Integer i = (Integer)v.get(0); // Run time error
 
-        ArrayList<String> c = new ArrayList<>();
+        String hascode= "Estrella";
+        List<String> c = new ArrayList<>();
         c.add("Manzanas");
         c.add("Peras");
         c.add("Duraznos");
         for(String st : c){
             System.out.println(st);
+            System.out.println(st.hashCode());
         }
         for(int a = 0; a < c.size(); a++){
+
             System.out.println(c.get(a));
+            System.out.println(c.get(a).hashCode());
         }
     }
 }
